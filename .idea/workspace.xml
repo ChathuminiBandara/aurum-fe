@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4312f131-433b-4e32-ab02-e641319a6c05" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/admin/analytics/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/categories/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/products/add/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/products/manage/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/cancel/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/cart/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/categories/[categoryId]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/favorites/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/login/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/my-orders/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/profile/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/signup/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/success/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/main-nav.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/mobile-nav.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/use-toast.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/firebaseClient.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.mjs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2tTGDP8OUePnd2F9MS9EbzePBoE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/chath/Documents/Aurum/aurum-fe/aurum-fe",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "show.migrate.to.gradle.popup": "false",
+    "ts.external.directory.path": "D:\\FerdiAndCo\\aurum\\completed\\aurum-fe\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4312f131-433b-4e32-ab02-e641319a6c05" name="Changes" comment="" />
+      <created>1740368532183</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740368532183</updated>
+      <workItem from="1740368533941" duration="7627000" />
+      <workItem from="1740380042201" duration="7723000" />
+      <workItem from="1740642524503" duration="2315000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
