@@ -26,7 +26,7 @@ export function MobileNav() {
                     <ScrollArea className="my-4 h-[calc(100vh-8rem)] pb-10">
                         <div className="flex flex-col space-y-4">
                             <Link href="/" onClick={() => setOpen(false)}>
-                                <span className="font-bold">Knitted Blooms</span>
+                                <span className="font-bold">Aurum Knitting</span>
                             </Link>
                             <nav className="flex flex-col space-y-3">
                                 <Link

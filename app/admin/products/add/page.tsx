@@ -22,7 +22,7 @@ function App() {
     useEffect(() => {
         const fetchCategories = async () => {
             try {
-                const res = await fetch('http://localhost:5000/api/categories');
+                const res = await fetch('http://54.179.39.154:5000/api/categories');
                 const data = await res.json();
                 setCategories(data);
             } catch (error) {
@@ -60,7 +60,7 @@ function App() {
         }
         try {
             // Request a pre-signed URL for S3 upload from the backend
-            const signRes = await fetch('http://localhost:5000/api/s3/sign', {
+            const signRes = await fetch('http://54.179.39.154:5000/api/s3/sign', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -93,7 +93,7 @@ function App() {
             const imageUrl = `https://aurum-knitting.s3.us-east-1.amazonaws.com/${fileKey}`;
 
             // Create the product
-            const productRes = await fetch('http://localhost:5000/api/products', {
+            const productRes = await fetch('http://54.179.39.154:5000/api/products', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

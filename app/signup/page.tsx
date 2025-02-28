@@ -22,7 +22,7 @@ export default function SignUpPage() {
 
     async function upsertUser(token: string) {
         try {
-            const res = await fetch("http://localhost:5000/api/customers/upsert", {
+            const res = await fetch("http://54.179.39.154:5000/api/customers/upsert", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -120,7 +120,7 @@ export default function SignUpPage() {
                     <blockquote className="space-y-2 backdrop-blur-sm bg-white/10 p-6 rounded-lg border border-white/20">
                         <p className="text-lg font-light italic">
                             &ldquo;Join our community of knitting enthusiasts and discover the joy of handcrafted flowers. Sign up now
-                            to start your creative journey with Knitted Blooms.&rdquo;
+                            to start your creative journey with Aurum Knitting.&rdquo;
                         </p>
                         <footer className="text-sm font-medium mt-4">— Aurum Knitting</footer>
                     </blockquote>
@@ -132,17 +132,17 @@ export default function SignUpPage() {
                         <div className="flex justify-center mb-2">
                             <div className="flex items-center gap-2 bg-primary/10 px-4 py-2 rounded-full">
                                 <Flower className="h-5 w-5 text-primary" />
-                                <span className="text-xl font-semibold tracking-tight">Knitted Blooms</span>
+                                <span className="text-xl font-semibold tracking-tight">Aurum Knitting</span>
                             </div>
                         </div>
                         <h1 className="text-2xl font-semibold tracking-tight">Create an account</h1>
-                        <p className="text-sm text-muted-foreground">Sign up to get started with Knitted Blooms</p>
+                        <p className="text-sm text-muted-foreground">Sign up to get started with Aurum Knitting</p>
                     </div>
 
                     <Card className="border-none shadow-lg">
                         <CardHeader className="space-y-1 lg:block hidden">
                             <CardTitle className="text-2xl font-bold">Create an account</CardTitle>
-                            <CardDescription>Sign up to get started with Knitted Blooms</CardDescription>
+                            <CardDescription>Sign up to get started with Aurum Knitting</CardDescription>
                         </CardHeader>
                         <CardContent className="pt-6">
                             <form onSubmit={onSubmit} className="space-y-6">

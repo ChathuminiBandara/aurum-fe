@@ -48,7 +48,7 @@ export default function OrdersPage() {
 
     const fetchOrders = async () => {
         try {
-            const res = await fetch("http://localhost:5000/api/orders", {
+            const res = await fetch("http://54.179.39.154:5000/api/orders", {
                 headers: { Authorization: `Bearer ${token}` },
             })
             const data = await res.json()

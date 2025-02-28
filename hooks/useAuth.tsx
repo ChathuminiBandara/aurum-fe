@@ -25,7 +25,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       if (firebaseUser) {
         // Get user role from your API
         const token = await firebaseUser.getIdToken()
-        const response = await fetch("http://localhost:5000/api/customers/me", {
+        const response = await fetch("http://54.179.39.154:5000/api/customers/me", {
           headers: {
             Authorization: `Bearer ${token}`,
           },

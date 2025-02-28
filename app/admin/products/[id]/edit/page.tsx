@@ -76,7 +76,7 @@ export default function EditProductPage() {
         }
 
         // Request a pre-signed URL for S3 upload
-        const signRes = await fetch('http://localhost:5000/api/s3/sign', {
+        const signRes = await fetch('http://54.179.39.154:5000/api/s3/sign', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

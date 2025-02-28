@@ -18,7 +18,7 @@ export default function CategoryProducts() {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const res = await fetch(`http://localhost:5000/api/categories/${categoryId}/products`);
+                const res = await fetch(`http://54.179.39.154:5000/api/categories/${categoryId}/products`);
                 const data = await res.json();
                 setProducts(data);
             } catch (error) {

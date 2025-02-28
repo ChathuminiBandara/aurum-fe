@@ -19,7 +19,7 @@ function App() {
 
     const fetchCategories = async () => {
         try {
-            const res = await fetch('http://localhost:5000/api/categories');
+            const res = await fetch('http://54.179.39.154:5000/api/categories');
             const data = await res.json();
             setCategories(data);
         } catch (error) {
@@ -41,7 +41,7 @@ function App() {
         if (!confirm('Are you sure you want to delete this category?')) return;
 
         try {
-            const res = await fetch(`http://localhost:5000/api/categories/${categoryId}`, {
+            const res = await fetch(`http://54.179.39.154:5000/api/categories/${categoryId}`, {
                 method: 'DELETE',
                 headers: {
                     'Authorization': `Bearer ${token}`,
@@ -70,7 +70,7 @@ function App() {
         }
 
         try {
-            const res = await fetch(`http://localhost:5000/api/categories/${editingCategory.id}`, {
+            const res = await fetch(`http://54.179.39.154:5000/api/categories/${editingCategory.id}`, {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json',
@@ -102,7 +102,7 @@ function App() {
 
         try {
 
-            const res = await fetch('http://localhost:5000/api/categories', {
+            const res = await fetch('http://54.179.39.154:5000/api/categories', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

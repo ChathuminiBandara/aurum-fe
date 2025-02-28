@@ -18,7 +18,7 @@ export default function Analytics() {
             if (!token) return;
             setLoading(true);
             try {
-                const res = await fetch('http://localhost:5000/api/analytics', {
+                const res = await fetch('http://54.179.39.154:5000/api/analytics', {
                     headers: { 'Authorization': `Bearer ${token}` }
                 });
                 const result = await res.json();

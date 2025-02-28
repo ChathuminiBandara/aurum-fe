@@ -21,7 +21,7 @@ export default function LoginPage() {
 
     async function upsertUser(token: string) {
         try {
-            const res = await fetch("http://localhost:5000/api/customers/upsert", {
+            const res = await fetch("http://54.179.39.154:5000/api/customers/upsert", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -121,7 +121,7 @@ export default function LoginPage() {
                         <div className="flex justify-center mb-2">
                             <div className="flex items-center gap-2 bg-primary/10 px-4 py-2 rounded-full">
                                 <Flower className="h-5 w-5 text-primary" />
-                                <span className="text-xl font-semibold tracking-tight">Knitted Blooms</span>
+                                <span className="text-xl font-semibold tracking-tight">Aurum Knitting</span>
                             </div>
                         </div>
                         <h1 className="text-2xl font-semibold tracking-tight">Welcome back</h1>

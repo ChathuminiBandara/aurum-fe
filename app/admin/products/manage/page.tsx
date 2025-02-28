@@ -19,7 +19,7 @@ export default function AdminProductsManage() {
     const fetchProducts = async () => {
         setLoading(true);
         try {
-            const res = await fetch('http://localhost:5000/api/products');
+            const res = await fetch('http://54.179.39.154:5000/api/products');
             const data = await res.json();
             setProducts(data);
         } catch (error) {
@@ -36,7 +36,7 @@ export default function AdminProductsManage() {
     const handleDelete = async (id: number) => {
         if (!token) return;
         try {
-            const res = await fetch(`http://localhost:5000/api/products/${id}`, {
+            const res = await fetch(`http://54.179.39.154:5000/api/products/${id}`, {
                 method: 'DELETE',
                 headers: {
                     'Authorization': `Bearer ${token}`,
@@ -60,7 +60,7 @@ export default function AdminProductsManage() {
     const handleUpdate = async () => {
         if (!token || !editingProduct) return;
         try {
-            const res = await fetch(`http://localhost:5000/api/products/${editingProduct.id}`, {
+            const res = await fetch(`http://54.179.39.154:5000/api/products/${editingProduct.id}`, {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json',

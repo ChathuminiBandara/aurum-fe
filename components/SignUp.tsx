@@ -27,7 +27,7 @@ export default function SignUp() {
       const token = await userCredential.user.getIdToken()
 
       // Upsert user in your database
-      const response = await fetch("http://localhost:5000/api/customers/upsert", {
+      const response = await fetch("http://54.179.39.154:5000/api/customers/upsert", {
         method: "POST",
         headers: {
           Authorization: `Bearer ${token}`,
