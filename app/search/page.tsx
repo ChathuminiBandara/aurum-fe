@@ -29,11 +29,12 @@ export default function SearchPage() {
     }
   }, [error]);
 
-  const handleSearch = (e) => {
+  const handleSearch = (e:any) => {
     e.preventDefault();
     // Update URL with search query
     window.history.pushState({}, "", `/search?q=${encodeURIComponent(query)}`);
     // Optionally, you can dispatch fetchProducts here as well if needed.
+    // @ts-ignore
     dispatch(fetchProducts(query));
   };
 
